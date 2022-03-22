@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run start:prod",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/priyanshkumar/PR-Portfolio/issues"
   },
-  "homepage": "https://github.com/priyanshkumar/PR-Portfolio#readme"
+  "homepage": "https://github.com/priyanshkumar/PR-Portfolio#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
 }
