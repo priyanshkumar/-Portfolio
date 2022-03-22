@@ -24,5 +24,8 @@
   "homepage": "https://github.com/priyanshkumar/PR-Portfolio#readme",
   "devDependencies": {
     "concurrently": "^7.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
   }
 }
