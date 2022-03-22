@@ -1,0 +1,9 @@
+.hero {
+
+  background: url(./images/bg-img.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}

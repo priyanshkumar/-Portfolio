@@ -1,0 +1,35 @@
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  color: #3d3e3b;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+/* Contact-background */
+.contact-background {
+  background-color: #f7f7f7;
+}
+
+/* Contact-heading */
+.contact h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.4rem;
+  color: #2b2828;
+}
+
+.contact .heading-border {
+  border-bottom: 3px solid rgb(255, 186, 0);
+  padding-bottom: 3px;
+  padding-bottom: 3px;
+}
+
+/* contact-content */
+.contact ul {
+  line-height: 2rem;
+}
+
+.contact li {
+  list-style-type: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}

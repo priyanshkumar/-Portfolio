@@ -1,0 +1,28 @@
+/* footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.58);
+}
+
+/* footer ion-icon */
+.footer ion-icon {
+  color: #fefefe;
+  font-size: 1.8rem;
+}
+
+.footer ion-icon:hover {
+  color: #ffba00;
+}
+
+/* footer pargraph */
+.footer p {
+  color: #fefefe;
+}
+
+.lead{
+  font-size: 1rem;
+}
+
+.lead-2{
+  font-size: 1.2rem;
+  font-family: 'Lobster', cursive;
+}

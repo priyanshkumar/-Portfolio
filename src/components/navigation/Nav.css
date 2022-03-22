@@ -1,0 +1,227 @@
+/* nav bar default style */
+nav {
+  box-shadow: 0px -22px 90px #717577bf;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+/* nav heading logo */
+nav h4 {
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+.mainLogo:hover{
+  background-color: #333333;
+}
+
+.mainLogo a h4{
+  font-weight: bold;
+}
+/* logo anchor*/
+.mainLogo a {
+  border-radius: 50%;
+  height: 50px;
+  font-size: 1.2rem;
+  color: #fffafa;
+  background-color: #e9e5e5;
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+
+.mainLogo a:hover {
+  animation: mainlogo 2s;
+  text-decoration: none;
+  background-color: #333333;
+  color:#ffffff;
+}
+
+
+@keyframes mainlogo{
+0%{
+  color: #333333;
+  background-color: #ffffff;
+}
+40%{
+  background-color: #333333;
+}
+50%{
+  font-size: 0px;
+  font-weight: bold;
+}
+100%{
+  color:#ffffff;
+  background-color: #333333;
+}
+}
+
+/* nav bar anchor links */
+.nav-link{
+  height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333333;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.navlinks{
+  margin-right: 3rem;
+}
+
+.nav-ionicon .box {
+  font-size: 1.6rem;
+}
+
+.nav-ionicon .box:hover {
+  background-color: #454545d9;
+  animation: navionicon 2s;
+}
+.nav-ionicon .box:hover ion-icon {
+  color: #ffffff;
+}
+
+@keyframes navionicon {
+  0% {
+    margin-top: -20px;
+    background-color: transparent;
+  }
+}
+
+.nav-ionicon ion-icon {
+  color: #333333;
+}
+
+.navlinks li {
+  list-style-type: none;
+}
+
+.active{
+  color: rgb(255, 186, 0);
+}
+
+/* nav links-hover */
+.navlinks a:hover {
+  border-bottom: solid rgb(255, 186, 0);
+  padding-bottom: 3px;
+  transition-duration: 600ms;
+  text-decoration: none;
+}
+
+.responsive-css .connect{
+display: flex;
+justify-content: space-between;
+}
+
+@media (max-width: 991px){
+.nav-ionicon{
+  margin-top: 2rem; 
+}
+.navlinks li{
+  margin: 1rem 0 0 0;
+}
+.navlinks {
+  margin-bottom: 2rem;
+  margin-right: 0;
+}
+nav{
+  padding: 0px;
+  background-color: #000000d1;
+}
+.responsive-css{
+  height: 100vh;
+}
+.responsive-css .connect{
+  display: flex;
+  justify-content: space-around;
+  height: 90%;
+  }
+ .nav-link{
+   padding: 1rem 0;
+   margin:1rem 0;
+   color: #fffafa !important;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .navlinks a:hover {
+    border-bottom: none;
+    padding-bottom:0px;
+    transition-duration: 300ms;
+    text-decoration: none;
+    color:  rgb(255, 186, 0) !important;
+  }
+.nav-ionicon ion-icon {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.nav-ionicon .box:hover {
+  background-color: #ffffffe0;
+}
+.nav-ionicon .box:hover ion-icon {
+  color: #000000;
+}
+.mainLogo a{
+  border-radius: 0%;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.nav-button:focus{
+outline: none
+}
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+} 
