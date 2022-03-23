@@ -1,31 +1,41 @@
 {
   "name": "portfoliorevised",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "npm run start:prod",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd client && npm run start",
-    "seed": "node scripts/seedDB.js",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/priyanshkumar/PR-Portfolio.git"
-  },
-  "author": "Priyansh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/priyanshkumar/PR-Portfolio/issues"
-  },
-  "homepage": "https://github.com/priyanshkumar/PR-Portfolio#readme",
-  "devDependencies": {
-    "concurrently": "^7.0.0"
-  },
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.17.3"
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
